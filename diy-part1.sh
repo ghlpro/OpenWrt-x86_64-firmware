@@ -21,6 +21,7 @@
 # git clone https://github.com/jerrykuku/luci-app-vssr.git
 
 # argon主题
-cd lede/package/lean
+pushd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+popd
