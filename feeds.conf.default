@@ -16,3 +16,4 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git https://github.com/jerrykuku/luci-app-vssr.git
 #src-git https://github.com/jerrykuku/luci-theme-argon
 #src-git https://github.com/jerrykuku/luci-theme-argon.git
+#src-git https://github.com/lisaac/luci-app-dockerman.git
