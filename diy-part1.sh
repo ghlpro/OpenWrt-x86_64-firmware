@@ -15,3 +15,12 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+# luci-app-vssr
+# cd lede/package/lean/
+# git clone https://github.com/jerrykuku/lua-maxminddb.git
+# git clone https://github.com/jerrykuku/luci-app-vssr.git
+
+# argon主题
+cd lede/package/lean
+rm -rf luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
