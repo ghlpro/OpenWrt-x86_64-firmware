@@ -25,3 +25,8 @@ pushd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 popd
+
+# 删除docker
+pushd package/lean
+rm -rf luci-app-docker
+popd
